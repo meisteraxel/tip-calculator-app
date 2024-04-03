@@ -15,7 +15,7 @@ function Input() {
           type="number"
           name=""
           id=""
-          className="bg-very-light-grayish-cyan rounded-md text-grayish-cyan text-right w-full py-2 px-5"
+          className="bg-very-light-grayish-cyan rounded-md text-grayish-cyan text-right w-full py-2 px-5 cursor-pointer border-2 outline-none border-very-light-grayish-cyan focus:border-strong-cyan"
           placeholder="0"
         />
       </div>
@@ -23,35 +23,35 @@ function Input() {
       <div className="grid grid-cols-3 text-center gap-4">
         <label
           htmlFor="5"
-          className="bg-very-dark-cyan text-white rounded-md cursor-pointer w-28 px-2 py-3"
+          className="bg-very-dark-cyan text-white rounded-md cursor-pointer  px-2 py-2 hover:bg-light-grayish-cyan border-2 border-transparent hover:text-very-dark-cyan"
         >
           5%
         </label>
         <input type="radio" className="hidden" />
         <label
           htmlFor="10"
-          className="bg-very-dark-cyan text-white rounded-md cursor-pointer w-28 px-2 py-3"
+          className="bg-very-dark-cyan text-white rounded-md cursor-pointer  px-2 py-2 hover:bg-light-grayish-cyan border-2 border-transparent hover:text-very-dark-cyan"
         >
           10%
         </label>
         <input type="radio" className="hidden" />
         <label
           htmlFor="15"
-          className="bg-very-dark-cyan text-white rounded-md cursor-pointer w-28 px-2 py-3"
+          className="bg-very-dark-cyan text-white rounded-md cursor-pointer  px-2 py-2 hover:bg-light-grayish-cyan border-2 border-transparent hover:text-very-dark-cyan"
         >
           15%
         </label>
         <input type="radio" className="hidden" />
         <label
           htmlFor="25%"
-          className="bg-very-dark-cyan text-white rounded-md cursor-pointer w-28 px-2 py-3"
+          className="bg-very-dark-cyan text-white rounded-md cursor-pointer  px-2 py-2 hover:bg-light-grayish-cyan border-2 border-transparent hover:text-very-dark-cyan"
         >
           25%
         </label>
         <input type="radio" className="hidden" />
         <label
           htmlFor="50%"
-          className="bg-very-dark-cyan text-white rounded-md cursor-pointer w-28 px-2 py-3"
+          className="bg-very-dark-cyan text-white rounded-md cursor-pointer  px-2 py-2 hover:bg-light-grayish-cyan border-2 border-transparent hover:text-very-dark-cyan"
         >
           50%
         </label>
@@ -59,7 +59,7 @@ function Input() {
         <input
           type="number"
           placeholder="Custom"
-          className="cursor-pointer rounded-md placeholder:text-dark-grayish-cyan bg-very-light-grayish-cyan text-center w-28 px-2 py-3"
+          className="cursor-pointer rounded-md placeholder:text-dark-grayish-cyan bg-very-light-grayish-cyan border-2 border-transparent text-center px-2 py-2 outline-none focus:border-strong-cyan"
         />
       </div>
       <p className="text-dark-grayish-cyan text-base">Number of People</p>
@@ -73,7 +73,7 @@ function Input() {
           type="number"
           name=""
           id=""
-          className="bg-very-light-grayish-cyan rounded-md text-grayish-cyan text-right w-full py-2 px-5"
+          className="bg-very-light-grayish-cyan rounded-md text-grayish-cyan text-right w-full py-2 px-5 cursor-pointer border-2 outline-none border-very-light-grayish-cyan focus:border-strong-cyan"
           placeholder="0"
         />
       </div>
