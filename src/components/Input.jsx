@@ -3,7 +3,7 @@ import "../index.css";
 
 function Input() {
   return (
-    <div className="font-semibold">
+    <div className="font-semibold w-1/2">
       <p className="text-dark-grayish-cyan">Bill</p>
       <img src="../src/assets/icon-dollar.svg" alt="" />
       <input
