@@ -5,13 +5,13 @@ import Calculation from "./components/Calculation.jsx";
 
 function App() {
   return (
-    <>
+    <div className="flex flex-col justify-center items-center font-mono">
       <img src="./src/assets/logo.svg" alt="Logo" />
-      <main>
+      <main className="bg-white flex justify-center mt-20 p-10 rounded-lg">
         <Input />
         <Calculation />
       </main>
-    </>
+    </div>
   );
 }
 
