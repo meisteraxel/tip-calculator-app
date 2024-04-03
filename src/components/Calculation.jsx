@@ -3,7 +3,7 @@ import "../index.css";
 
 function Calculation() {
   return (
-    <div className="bg-very-dark-cyan p-4 rounded-md w-1/2 flex flex-col">
+    <div className="bg-very-dark-cyan p-6 rounded-md w-1/2 flex flex-col">
       <div className="flex justify-between items-center">
         <div>
           <p className="text-white font-semibold text-m">Tip Amount</p>
