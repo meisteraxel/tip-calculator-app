@@ -15,7 +15,7 @@ function Input() {
           type="number"
           name=""
           id=""
-          className="bg-very-light-grayish-cyan rounded-md text-grayish-cyan text-right w-full py-2 px-5 cursor-pointer border-2 outline-none border-very-light-grayish-cyan focus:border-strong-cyan"
+          className="bg-very-light-grayish-cyan rounded-md text-right w-full py-2 px-5 cursor-pointer border-2 outline-none border-very-light-grayish-cyan focus:border-strong-cyan"
           placeholder="0"
         />
       </div>
@@ -73,7 +73,7 @@ function Input() {
           type="number"
           name=""
           id=""
-          className="bg-very-light-grayish-cyan rounded-md text-grayish-cyan text-right w-full py-2 px-5 cursor-pointer border-2 outline-none border-very-light-grayish-cyan focus:border-strong-cyan"
+          className="bg-very-light-grayish-cyan rounded-m text-right w-full py-2 px-5 cursor-pointer border-2 outline-none border-very-light-grayish-cyan focus:border-strong-cyan"
           placeholder="0"
         />
       </div>
